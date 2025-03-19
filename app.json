@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "visitas",
+    "slug": "visitas",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.davidbjjj.visitas"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.davidbjjj.visitas"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e08d2dfa-da91-463c-8ef5-1c9d51c456c7"
+      }
+    },
+    "owner": "davidbjjj",
+    "updates": {
+      "url": "https://u.expo.dev/e08d2dfa-da91-463c-8ef5-1c9d51c456c7"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
